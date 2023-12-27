@@ -13,8 +13,8 @@
 4. Функции, которые используются в этой логике, прописаны в следующих файлах:[vk_stats_func.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/vk_stats_func.py), [dzen_load.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/dzen_load.py),  [youtube_load.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/youtube_load.py),  [tg_load.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/tg_load.py), [tenchat_load.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/tenchat_load.py), [vc_load.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/vc_load.py). Соответствуют каждому кабинету.
 ### [meta_load.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/meta_load.py)
 Файл для выгрузки статистики из Instagram и FaceBook
-1. Выгружаются данные из кабинетов и загружается в таблицу BigQuery
-2. Здесь выгружаются 4 кабинета компании DS, а именно dsteam_en, dsteam_ru, multicore, idenzy
+1. Выгружаются данные из кабинетов и загружаются в таблицу BigQuery. Используется прокси для сбора статистики
+2. Статистика собирается из 4 кабинетов компании DS, а именно dsteam_en, dsteam_ru, multicore, idenzy
 3. Функции которые используются для выгрузки статистики хранятся в [meta_func.py](https://github.com/DigitalStrategyMSK/internal_marketing/blob/main/social_stats/meta_func.py)
 
 Остальные файлы используются для получения разрешений к API сервисов.
