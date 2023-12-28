@@ -35,10 +35,10 @@ config.read("config.ini")
 NOTION_TOKEN = config['Notion']['notion_token']
 
 # ID базы знаний Notion
-DATABASE_ID = '8a688e98892c4d9e81c4844f937a43ee'
+DATABASE_ID = config['Notion']['database_id_main']
 
 # ID таблицы Списка чатов
-DATABASE_ID_CHAT = 'faeef1f2e9a64ebca19d2d1d81257e94'
+DATABASE_ID_CHAT = config['Notion']['database_id_chat']
 
 headers = {
     "Authorization": "Bearer " + NOTION_TOKEN,
@@ -298,10 +298,10 @@ config.read("config.ini")
 NOTION_TOKEN = config['Notion']['notion_token']
 
 # ID таблицы Списка чатов
-DATABASE_ID_CHAT = 'faeef1f2e9a64ebca19d2d1d81257e94'
+DATABASE_ID_CHAT = config['Notion']['database_id_chat']
 
 # ID базы знаний Notion
-DATABASE_ID = '8a688e98892c4d9e81c4844f937a43ee'
+DATABASE_ID = config['Notion']['database_id_main']
 ```
 
 Объявление заголовка и url отправки запроса к API. Получение данных из таблицы Notion [Список чатов](https://www.notion.so/faeef1f2e9a64ebca19d2d1d81257e94?v=ee30129cde9547fabc1a72e351cd0571)
