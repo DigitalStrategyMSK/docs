@@ -2,7 +2,9 @@
 
 ## Бот для генерации контента
 [Ссылка на бота](https://t.me/ds_chatgpt_bot)
+
 [Ссылка на репозиторий](https://github.com/DigitalStrategyMSK/ds_chatgpt_bot/tree/main)
+
 Бот предназначен для генерации контента через 
 API OpenAI. 
 
