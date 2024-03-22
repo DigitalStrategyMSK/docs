@@ -45,7 +45,7 @@ import pandas as pd
 
 ```python
 logging.basicConfig(level=logging.INFO)
-bot
+bot = Bot(token="6789983022:AAFrNfVSXswPzCmVv_5oxtWQe5ElT65K6SE")
 dp = Dispatcher()
 params_dict={'Версия GPT':'gpt-4-1106-preview','Имя листа в документе':'Алгоритм для GPT4 с переводом'}
 dp["params"] = params_dict
